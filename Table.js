@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 class Table extends Component{
-const TableHeader = ()=> {
+const TableHeader = () => {
 <thead>
 <th>Name</th>
 <th>Role</th>
 <th>Salary</th>
 </thead>
 }
-const TableBody = (props)=>{
+const TableBody = (props) => {
 const rows = props.employeeData.map((row, index)=>{
 return(
 <tr key={index}>
