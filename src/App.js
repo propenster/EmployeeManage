@@ -15,15 +15,10 @@ const employees = [
 ]
 }
 
-
-
 return (
 <div className="container">
   <Table employeeData={employees} />
 </div>
-
-
-
 
 )
 
